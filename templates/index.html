@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FARMAI - Empowering Farmers Through AI</title>
+    <link rel="icon" type="image/png" href="/static/images/logo.png">
+    <link rel= "stylesheet" type= "text/css" href= "/static/styles/index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+
+    <nav class="nav_container ">
+      <div class="content">
+        <div class="left_nav ">
+          <div class="logo">
+            <div class="image">
+              <img
+                src="/static/images/logo.png"
+                width="70"
+                height="70"
+                alt="logo"
+              />
+            </div>
+
+            <div class="logo_title">
+              <h4>FarmAI</h4>
+            </div>
+          </div>
+
+          <div class="links mx-0">
+            <ul class="">
+              <li class="text-gray-500 hover:text-gray-900 delay-200">
+                <a href="#predictor">Predictor</a>
+              </li>
+              <li class="text-gray-500 hover:text-gray-900 delay-200">
+                <a href="#why">Why?</a>
+              </li>
+              <li class="text-gray-500 hover:text-gray-900 delay-200">
+                <a href="#supported">Supported Plants</a>
+              </li>
+              <li class="text-gray-500 hover:text-gray-900 delay-200">
+                <a href="#supplements">Supplements</a>
+              </li>
+              <li class="text-gray-500 hover:text-gray-900 delay-200">
+                <a href="#help">Help</a>
+              </li>
+            
+            </ul>
+          </div>
+        </div>
+        <div class="right_nav justify-self-end">
+          <div class="versions">
+            <div class="version">
+              <h5>1.0.1</h5>
+            </div>
+          </div>
+          <div class="sidemenu" id="sidemenu" onclick="openNav()">
+            
+            <img src="/static/images/menu.png" width="20" height="20" id="mobile_menu_icon"/>
+          
+          </div> 
+        </div>
+      </div>
+
+      <div class="mobile_menu_slide" id="mobile_menu_slide">
+          <div class="links mx-0">
+            <ul class="">
+              <li class="text-gray-500 hover:text-gray-900 delay-200">
+                <a href="#predictor" onClick="openNav()">
+                  Predictor
+                </a>
+              </li>
+              <li class="text-gray-500 hover:text-gray-900 delay-200">
+                <a href="#why" onClick="openNav()">
+                  Why?
+                </a>
+              </li>
+              <li class="text-gray-500 hover:text-gray-900 delay-200">
+                <a href="#supplements" onClick="openNav()">
+                  Supplements
+                </a>
+              </li>
+
+              <li class="text-gray-500 hover:text-gray-900 delay-200">
+                <a href="#supported" onClick="openNav()">
+                  Supported Plants
+                </a>
+              </li>
+
+              <li class="text-gray-500 hover:text-gray-900 delay-200">
+                <a href="#help" onClick="openNav()">
+                  Help
+                </a>
+              </li>
+
+              
+              
+            </ul>
+          </div>
+      </div>
+    </nav>
+
+
+
+    <section class="hero_section">
+      <div class="content">
+        <div class="title">
+          <h1>Empowering Farmers Through AI</h1>
+        </div>
+        <div class="subtitle">
+          <h2 class="">
+            Plant Leaf Disease Detection and Prevention Platform<br/>
+            <!-- Providing tailored suggestions to fortify plant health based on disease detection results -->
+            <!-- -Detect, Prevent, and Expert Guidance -->
+          </h2>
+  
+          <h2 class="npm">
+            <a href="https://www.npmjs.com/package/kemcholang" target="_blank"><code>Detect, Prevent, Assistance</code></a>
+          </h2>
+  
+          <h2 class="developer_name">Made for <span><Link href="https://www.linkedin.com/in/darshan-balar-4302141bb/" target="_blank">Farmers</a></span></h2>
+        </div>
+  
+        <div class="buttons">
+          <a href="#predictor">
+            <button>Get Started</button>
+          </a>
+          <a href="#help">
+            <button class="documentbutton">Help</button>
+          </a>
+        </div>
+        <div class="mt-14 image">
+          <img
+            src="/static/images/logo.png"
+            width="120"
+            height="120"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+
+   <!---------- -->
+   <!-- Why is it necessary to detect disease in plant ?
+   Plant diseases affect the growth of their respective species. In addition, some research gaps are identified from which to obtain greater transparency for detecting diseases in plants, even before their symptoms appear clearly. diagnosis is one of the most important aspects of a plant pathologist's training. Without proper identification of the disease and the disease-causing agent, disease control measures can be a waste of time and money and can lead to further plant losses. Proper disease diagnosis is necessary. -->
+
+   <!------- Why ? -->
+   <section>
+    <div class="why_container" id="why">
+      <div class="content">
+        <div class="title">
+          <h1 class="text-3xl"># Why ?</h1>
+        </div>
+        <div class="body my-14">
+
+          <div class="description">
+          <h2 class="title">Why is it necessary to detect disease in plant ?</h2>
+
+
+            <p>
+              
+            
+              Plant diseases affect the growth of their respective species. In addition, some research gaps are identified from which to obtain greater transparency for detecting diseases in plants, even before their symptoms appear clearly. diagnosis is one of the most important aspects of a plant pathologist's training. Without proper identification of the disease and the disease-causing agent, disease control measures can be a waste of time and money and can lead to further plant losses. Proper disease diagnosis is necessary</p>
+        </div></div>
+      </div>
+    </div>
+          <!-- </section> -->
+   </section>
+
+   <!--- SUPORTED FRUITS -->
+   <section>
+    <div class="support_container" id="supported">
+      <div class="content">
+        <div class="title">
+          <h1 class="text-3xl"># Supported Plants</h1>
+        </div>
+        <div class="body my-14">
+              <div class="plants">
+                 <div class="plant">
+                    <div class="image">
+                        <img src="/static/images/apple.png" width="50" height="50"/>
+                    </div>
+                    <div class="subtitle">
+                      Apple
+                    </div>
+                 </div>
+
+                 <div class="plant">
+                  <div class="image">
+                      <img src="/static/images/blueberry.png" width="50" height="50"/>
+                  </div>
+                  <div class="subtitle">
+                    Blueberry
+                  </div>
+               </div>
+
+
+               <div class="plant">
+                <div class="image">
+                    <img src="/static/images/cherry.png" width="50" height="50"/>
+                </div>
+                <div class="subtitle">
+                  Cherry
+                </div>
+             </div>
+
+
+             <div class="plant">
+              <div class="image">
+                  <img src="/static/images/corn.png" width="50" height="50"/>
+              </div>
+              <div class="subtitle">
+                Corn
+              </div>
+           </div>
+
+
+           <div class="plant">
+            <div class="image">
+                <img src="/static/images/grape.png" width="50" height="50"/>
+            </div>
+            <div class="subtitle">
+              Grape
+            </div>
+         </div>
+
+         <div class="plant">
+          <div class="image">
+              <img src="/static/images/orange.png" width="50" height="50"/>
+          </div>
+          <div class="subtitle">
+            Orange
+          </div>
+       </div>
+
+       <div class="plant">
+        <div class="image">
+            <img src="/static/images/peach.png" width="50" height="50"/>
+        </div>
+        <div class="subtitle">
+          Peach
+        </div>
+     </div>
+
+     <div class="plant">
+      <div class="image">
+          <img src="/static/images/bg1.jpg" width="50" height="50"/>
+      </div>
+      <div class="subtitle">
+        Papper Bell
+      </div>
+   </div>
+
+   <div class="plant">
+    <div class="image">
+        <img src="/static/images/potato.png" width="50" height="50"/>
+    </div>
+    <div class="subtitle">
+      Potato
+    </div>
+ </div>
+
+ <div class="plant">
+  <div class="image">
+      <img src="/static/images/raspberry.png" width="50" height="50"/>
+  </div>
+  <div class="subtitle">
+    Raspberry
+  </div>
+</div>
+<div class="plant">
+  <div class="image">
+      <img src="/static/images/soyabean.png" width="50" height="50"/>
+  </div>
+  <div class="subtitle">
+    Soyabean
+  </div>
+</div>
+<div class="plant">
+  <div class="image">
+      <img src="/static/images/bg1.jpg" width="50" height="50"/>
+  </div>
+  <div class="subtitle">
+    Squach
+  </div>
+</div>
+<div class="plant">
+  <div class="image">
+      <img src="/static/images/strawberry.png" width="50" height="50"/>
+  </div>
+  <div class="subtitle">
+    Strawberry
+  </div>
+</div>
+<div class="plant">
+  <div class="image">
+      <img src="/static/images/tomato.png" width="50" height="50"/>
+  </div>
+  <div class="subtitle">
+    Tomato
+  </div>
+</div>
+
+
+                 
+              </div>
+        </div>
+      </div>
+    </div>
+          <!-- </section> -->
+   </section>
+
+
+   <section>
+    <div class="playground_container" id="predictor">
+      <div class="content">
+        <div class="title">
+          <h1 class="text-3xl"># Predictor</h1>
+        </div>
+        <div class="body my-14">
+           <div class="fileupload">
+
+            <form id="uploadForm" action="/" method="POST" enctype="multipart/form-data" onsubmit="submitForm(event)">
+              <input type="file" id="fileInput" name="image" hidden/>
+          </form>
+
+          
+            <a href="#predictor" onclick="document.getElementById('fileInput').click();" id="fileButton"><div class="image mb-6">
+              <img src="/static/images/leaf.png" width="100" height="100"/>
+            </div>
+               <div class="title">
+                Simply upload your plant's leaf image <br/> and then see the magic of AI
+               </div>
+               <div class="button">
+                 
+               </div>
+
+              </a>
+           </div>
+           <div class="suggestions">
+
+            <div class="image mb-6">
+              <img src="/static/images/logo.png" width="100" height="100"/>
+            </div>
+            <div class="title">
+
+              {% if title != "" %}
+              <div class="output">
+
+                <div class="title">
+                  <h2>{{title}} 🍂</h4>
+                </div>
+
+                <div class="image">
+                  
+                  <div class="plant">
+                    <div class="image">
+                        <img src={{image_url}} width="50" height="50"/>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="description">
+
+                    <h3>
+
+                      {% if pred==3 or pred==5 or pred==7 or pred==11 or pred==15 or pred==18 or pred==20 or pred==23 or
+                        pred==24 or pred==25 or pred==28 or pred==38 %}
+                        Tips to Grow Healthy Plants :
+                        {% else %}
+                        Brief Descritpion :
+                        {% endif %}
+
+
+                    </h3>
+
+                    <p>{{desc}}</p>
+                </div>
+
+                <div class="description prevent">
+
+                    <h3>
+
+                      {% if pred==3 or pred==5 or pred==7 or pred==11 or pred==15 or pred==18 or pred==20 or pred==23 or
+                        pred==24 or pred==25 or pred==28 or pred==38 %}
+                        Benefits :
+                        {% else %}
+                        Prevent This Plant Disease By follow below steps :
+                        {% endif %}
+
+                    </h3>
+                    
+                    <p>{{prevent}}</p>
+                </div>
+                
+                {% if pred!=4 %}
+                <div class="supplements" >
+                    <h3>
+
+                      {% if pred==3 or pred==5 or pred==7 or pred==11 or pred==15 or pred==18 or pred==20 or pred==23 or
+                        pred==24 or pred==25 or pred==28 or pred==38 %}
+                        Fertilizer :
+                        {% else %}
+                        Supplements :
+                        {% endif %}
+
+                    </h3>
+
+                    <div class="image">
+                        <img src={{simage}} width="100" height="100" />
+                    </div>
+
+                    <div class="supply_title">
+                        {{sname}}
+                    </div>
+
+                    <div class="buy_button">
+                      <a href={{buy_link}} target="_blank">
+                        <button>Buy Product</button>
+                      </a>
+                    </div>
+                </div>
+                {% endif %}
+                
+              </div>
+              {% endif %}
+           
+              {%if title == ""%}
+            <div class="dummy">After submitting the image , output will be shown here </br/> It may take a some while
+                
+            
+              <h5><b>Prevent Plant Disease follow below steps:</b></h5>
+
+              <ol type="I" start="I">
+                <li>Follow Good Sanitation Practices.</li>
+                <li>Fertilize to Keep Your Plants Healthy.</li>
+                <li>Inspect Plants for Diseases Before You Bring Them Home.</li>
+                <li>Allow the Soil to Warm Before Planting.</li>
+                <li>Ensure a Healthy Vegetable Garden By Rotating Crops.</li>
+                <li>Provide Good Air Circulation.</li>
+                <li>Remove Diseased Stems and Foliage.</li>
+            </ol>
+
+
+            </div>
+              {% endif %}
+
+
+             </div>
+         
+             
+           </div>
+        </div>
+      </div>
+    </div>
+          <!-- </section> -->
+   </section>
+
+
+   <!--------- SUPPLEMENTS ------------>
+
+   <section>
+    <div class="supplements_container" id="supplements">
+      <div class="content">
+        <div class="title">
+          <h1 class="text-3xl"># Supplements</h1>
+        </div>
+        <div class="body my-14">
+              <div class="plants">
+
+                {% for index in range(0,supplement_name | length) %}
+                {% if index != 4 %}
+                <div class="plant">
+                 
+                    
+                        {% if index==3 or index==5 or index==7 or index==11 or index==15 or index==18 or index==20 or
+                        index==23 or
+                        index==24 or index==25 or index==28 or index==38 %}
+                        <h5>Fertilizer<b style="color: green;"> (Healthy):</b></h5>
+                        {% else %}
+                        <h5>Supplements<b style="color: red;"> (Diseased):</b></h5>
+                        {% endif %}
+                        <br>
+
+                        <div class="image">
+                        <img src={{supplement_image[index]}} width="200" height="250" >
+                        </div>
+                        <br>
+                        <br>
+                        <h6>For {{disease[index]}}</h6>
+                        <p>{{supplement_name[index]}}</p>
+            
+                        <a target="_blank" href={{buy[index]}}><button type="button" class="buy_button "
+                          >Buy Product</button></a>
+                  
+                </div>
+                {% endif %}
+                {% endfor %}
+       
+             
+              </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <section>
+    <div class="help_container" id="help">
+      <div class="content">
+        <div class="title">
+          <h1 class="text-3xl"># Help</h1>
+        </div>
+        <div class="body my-14">
+
+          <div class="description">
+          <h2 class="title">Belows are some helpful youtube video by experts suggestion </h2>
+
+            <div class="yvideos">
+              <div class="video">
+                <iframe width="360" height="215" src="https://www.youtube.com/embed/OLBvsD-stxU?si=OTL7t6Fr0LNe3JVu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              
+
+                <div class="subtitle">
+                  <p>How to PREVENT and TREAT ANY PLANT DISEASE to achieve 100% success</p>
+                </div>
+              </div>
+
+              <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/LFPqVu6Hhwc?si=YfFInr91tC_tOxD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              
+
+                <div class="subtitle">
+                  <p>Leaf Curling Disease in Chili Pepper, Capsicum & Tomato Plants</p>
+                </div>
+              </div>
+
+              <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/stnsShO0_lQ?si=M8pgTccljFmnoPwL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              
+
+                <div class="subtitle">
+                  <p>why plant leaves turn brown and dry on the ends</p>
+                </div>
+              </div>
+
+              <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qwP1Mc15660?si=X9weSEOsKy7uAoM2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              
+
+                <div class="subtitle">
+                  <p>INSTANT Solution for BROWN LEAF TIPS on House Plants/</p>
+                </div>
+              </div>
+
+              <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/U1HIvXkb9ig?si=9QH4ZuOcMXcHEp3H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              
+
+                <div class="subtitle">
+                  <p>TOP 10 REASONS FOR LEAF YELLOWING AND LEAF BURNING</p>
+                </div>
+              </div>
+            </div>
+        </div></div>
+      </div>
+    </div>
+   </section>
+
+   <div class="p-5 mt-3 text-center footer border border-1">
+    <h1 class="text-1xl">Made By Darshan Balar, Saurabh Maddheshiya, Vineet Sharma, 2024 </h1>
+  </div>
+   
+
+   <script>
+
+    let open = false;
+    // JavaScript to trigger click event on the hidden file input element
+    document.getElementById('fileInput').addEventListener('change', function() {
+      document.getElementById('uploadForm').submit();
+  });
+
+  function submitForm() {
+    var formData = new FormData();
+    var fileInput = document.getElementById('fileInput').files[0];
+    formData.append('image', fileInput);
+    
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', '/', true);
+    xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            var response = JSON.parse(xhr.responseText);
+            // Update the content of the desired HTML element with the response HTML
+            document.getElementById('output').innerHTML = response.html;
+        }
+    };
+    xhr.send(formData);
+}
+
+function openNav(){
+  let mobile_menu = document.getElementById(
+    "mobile_menu_slide"
+  );
+
+  let menu_icon = document.getElementById("mobile_menu_icon");
+
+  if(window.getComputedStyle(mobile_menu).display === "none"){
+    mobile_menu.style.display = "block";
+    open = true;
+    menu_icon.src = '/static/images/close.png';
+  }
+  else{
+    mobile_menu.style.display = "none";
+    menu_icon.src = '/static/images/menu.png'
+    open = false;
+  }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Get the section to scroll to from the query parameters
+  var scroll_to = "{{ scroll_to }}";
+  // If the section to scroll to is specified
+  if (scroll_to) {
+      // Get the corresponding element
+      var section = document.getElementById(scroll_to);
+      // Scroll to the section
+      section.scrollIntoView({ behavior: 'smooth' });
+  }
+});
+
+
+    </script>
+
+
+  </body>
+</html>
