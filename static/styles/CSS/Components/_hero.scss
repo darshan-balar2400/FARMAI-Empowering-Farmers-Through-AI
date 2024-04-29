@@ -8,14 +8,27 @@
     // border:1px solid red;
 
     background-color: white;
-    // background-image: url("/static/images/final_bg.png");
-    // // clip-path: polygon(100% 0, 100% 92%, 50% 100%, 0 92%, 0 46%, 0% 0%);
-    // // filter:blur(12);
-    background-size:cover;
+    // background-image: url("/static/images/bg_final.jpg");
+    // // filter: blur(12px); /* Added 'px' unit */
+    // background-size: cover;
+    // background-position: top left;
     // clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 0 1%);
-
+    // transform: scaleX(-1);
     // box-shadow:common.$boxShadow1;
     
+    .background-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url("/static/images/bg_final.jpg");
+    filter: blur(3px);
+    background-size: cover;
+    background-position: top left;
+    transform: scaleY(-1);
+    // background-size: 50% 50%;
+    }
     .content{
         position: absolute; /* Position content relative to .hero_section */
         z-index: 1;
